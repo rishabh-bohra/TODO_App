@@ -8,7 +8,7 @@ const CourseGoalItem = props => {
         props.onDelete(props.id);
     };
 
-    return (<li className="goal-itzem" onClick={deleteHandler} >
+    return (<li className="goal-item" onClick={deleteHandler} >
          {props.children} 
     </li>
         );
